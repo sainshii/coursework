@@ -1,0 +1,26 @@
+/* Установка пользовательских шрифтов */
+@font-face {
+    font-family: 'Boopee';
+    src: url(../fonts/Boopee.ttf);
+}
+
+@font-face {
+    font-family: 'Fairfax';
+    src: url(../fonts/Fairfax.ttf);
+}
+
+@font-face {
+    font-family: 'Ustroke';
+    src: url(../fonts/Ustroke.ttf);
+}
+
+/* Альтернативные имена для использования в Tailwind */
+.font-heading {
+  font-family: 'UStroke', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.font-body {
+  font-family: 'Boopee', sans-serif;
+  letter-spacing: 0.02em;
+}

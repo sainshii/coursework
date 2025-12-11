@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Boopee';
+  src: url('../src/fonts/Boopee.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ustroke';
+  src: url('../src/fonts/Ustroke.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fairfax';
+    src: url('../src/fonts/Fairfax.ttf') format('truetype');
+    font-display: swap;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'UStroke', sans-serif;
+    letter-spacing: 0.05em;
+  }
+  
+  body {
+    font-family: 'Boopee', sans-serif;
+    letter-spacing: 0.02em;
+  }
+}
